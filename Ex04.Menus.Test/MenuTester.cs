@@ -12,6 +12,7 @@ namespace Ex04.Menus.Test
         {
             MainMenu mainMenu = new MainMenu("Main");
             mainMenu.AddSubItem("Version and Digits");
+            // presenting getting sub item by name
             mainMenu.SubItem("Version and Digits").AddSubItem("Count Capitals", new ActionableItems.CountCapitals());
             mainMenu.SubItem("Version and Digits").AddSubItem("Show Version", new ActionableItems.ShowVersion());
 
